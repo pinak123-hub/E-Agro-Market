@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us</title>
+	<link rel="shortcut icon" type="image/x-icon" href="{{url_for('static',filename='/img/favicon.ico')}}">
+	
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='./css/about_style.css')}}">
+</head>
+<body>
+	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+   <a class="navbar-brand" href="/">
+    <img src="{{url_for('static',filename='/img/logo.png')}}" height="30" width="30" alt="" loading="lazy">
+    E-Agro-Market
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contact_us">Contact</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          LogIn/SignUp
+        </a>
+        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/farmer_login">Login as Farmer</a>
+          <a class="dropdown-item" href="/farmer_signup">SignUp as Farmer</a>
+          <a class="dropdown-item" href="/merchant_login">Login as Merchant</a>
+          <a class="dropdown-item" href="/merchant_signup">SignUp as Merchant</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+<section id="aboutus">
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<h2 class="text-center">E-Agro-market</h2>
+			</div>
+			<div class="col-sm-5">
+				<div class="img-wrap">
+					<img src="{{url_for('static',filename='/img/aboutus1.jpg')}}">
+				</div>
+			</div>
+			<div class="col-sm-8">
+			<p> Hello Users,<br><br>If you see that the farmers not getting the right price to his good due to lack of proper market now a days.<br> <br>
+				Now,We are successfull to create a website that will connect farmers and traders as a solution to the problem of farmers not getting the right price to his goods due to lack of proper markets these days.<br><br>
+				This website is also helpfull to merchant.because, merchant will also get the seller without going anywhere...
+				</p>
+				<p>- Thank you ....</p>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+
+</section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body> 
+</html>

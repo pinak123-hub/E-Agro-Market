@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*important*/
+}
+:root{
+    font-size: 62.5%;
+}
+ body{
+       
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(../img/onion.jpg);
+    margin-top:4rem;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+   .regform{
+    width:800px;
+    background-color:rgb(0,0,0,0.6);
+    margin: 10px auto;
+    color:#FFFFFF;
+    padding:10px 10px 10px 10px;
+    text-align:center;
+    border: none;
+    border-radius:20px ;
+    }  
+  .main{
+   background-color:rgb(0,0,0,0.5);
+   width:800px;
+   margin:10px auto;
+   border-radius: 20px;
+}
+  
+  form{
+    padding:10px;
+   
+  } 
+  
+  #name{
+    width:100%;
+    height:100px;
+    
+    }  
+  .name{
+    margin-left:25px;
+    margin-top:30px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.name_error{
+    margin-left:4rem;
+    margin-top:auto;
+    width:124px;
+    color: #ff0000;
+    font-size: 1.7rem;
+    }
+
+.firstname{
+    position: relative;
+    left:200px;
+    top:-37px;
+    line-height: 40px;
+    padding: 0 22px;
+    font-size: 16px;
+       
+       }
+.lastname{
+    position: relative;
+    left:470px;
+    top:-77px;
+    line-height: 40px;
+    padding: 0 22px;
+    font-size: 16px;
+    color:#555;       
+                  }  
+
+ .email{
+    position:relative;
+  	left:200px;
+    top:-37px;
+    line-height: 40px;
+    width:480px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;  
+    }     
+ 
+
+
+ .option{
+         position:relative;
+  left:200px;
+     top:-37px;
+     line-height: 40px;
+     width:532px;
+     height:40px;
+        border-radius: 6px;
+     padding: 0 22px;
+     font-size: 16px;
+     color: #555; 
+     outline:none;
+     overflow:hidden;
+  }    
+     .option option{
+                 font-size:20px;
+                 /*color: #000000;*/
+       }
+
+     
+  .radio input{
+              width:20px;
+     height:20px;
+     border-radius:50%;
+     cursor:pointer;
+     outline:none;
+    } 
+    button{
+    background-color:#3BAF9F;
+    display:block;
+    margin-top: 50px;
+    margin:auto;
+    margin-left: 500px;
+    text-align:center;
+    border-radius:120px;
+    border:none;
+    padding:15px 20px;
+    outline:none;
+    color:white;
+    cursor:pointer;
+    transition:0.25px;
+    } 
+   button:hover{
+                background-color:#39dc79;;
+      }   
+.reg-form .main input
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 4rem;
+    color: #fff;
+    font-size: 1.6rem;
+    border-radius: 0px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.submit{
+    background-color:#3BAF9F;
+    display:block;
+    margin-top: 50px;
+    margin:auto;
+    margin-bottom: 10px;
+    text-align:center;
+    border-radius:120px;
+    border:none;
+    padding:15px 20px;
+    outline:none;
+    color:white;
+    cursor:pointer;
+    transition:0.25px;
+    }
+    input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(https://mywildalberta.ca/images/GFX-MWA-Parks-Reservations.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+}
